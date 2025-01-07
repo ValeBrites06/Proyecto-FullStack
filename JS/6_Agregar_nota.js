@@ -60,11 +60,12 @@ function agregarAlumno(alumnos, notas, cantidadAlumnos) { //Función agregar alu
                 console.log('Ingrese una CI valida');
             } else {
                 //Validación: El largo es = 8
-                if (cedulas.length === 8) {
-                    alumnos.push(cedulas); //unshift. Agrega un elemento(cedula) al principio del array(alumnos), al usar unshift el numero ingresado queda en la posición 0
+                if (cedulas < 10000000 && cedulas > 99999999) { //Si está en el rango (paar verificar los 8 digitos)
+                    console.log('Ingrese una CI válida');
+                }
+                alumnos.push(cedulas); //unshift. Agrega un elemento(cedula) al principio del array(alumnos), al usar unshift el numero ingresado queda en la posición 0
                 console.log('Se ingresó el alumno:' + cedulas); //ver si es necesario o no
                 console.log('Ci alumnos:' + alumnos);
-                }
             }
         }
     }
