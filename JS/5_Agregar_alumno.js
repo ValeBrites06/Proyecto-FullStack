@@ -84,3 +84,15 @@ menuPrincipal();
 
 //Si tengo que agregar una nota a diferentes evaluaciones (Evaluacion a, evaluación b...) cómo debería hacerlo?
 //Aería:  pedir el numero de la ci,
+
+ // if (nota < 0 && nota > notaMaxima) {
+    //     console.log('Nota no válida.');
+    //     return;
+    // }
+
+    // console.log('Notas' + notas);
+
+    // alumnos.slice(); //Cómo traer un valor de cada array que esté asociado al alumno
+    // let informeAlumno = (ObligatorioA, ObligatorioB, ObligatorioC, PruebaA, PruebaB, PruebaC, Proyecto);
+    // return informeAlumno; //Retorna la variable informe Alumno que tiene dentro los arrays por cada evaluación
+    // //Return: Retorna el valor de una variable (Es una clausula de los metodos(metodo y función))
